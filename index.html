@@ -164,7 +164,7 @@
             border-radius: 0 0 .4vw .4vw;
         }
         
-        .second_block1_div2_block5>select{
+        .second_block1_div2_block5>select, .second_block1_div2_block5>input{
             height: 14%;
             width: 57%;
             border-radius: 1vw;
@@ -381,24 +381,26 @@
                         </svg>
                     </div>
                     <div class="second_block1_div2_block5" style="background: linear-gradient(90deg,#dba187,#b03cc4);">
-                        <select>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
+                        <select class="select" onchange="filter()">
+                            <option>User role : All</option>
+                            <option>User role : Admin</option>
+                            <option>User role : Developer</option>
+                            <option>User role : User</option>
                         </select>
-                        <select>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
+                        <select class="select" onchange="filter()">
+                            <option>Language: All</option>
+                            <option>Language: RU</option>
+                            <option>Language: EN</option>
+                            <option>Language: DE</option>
                         </select>
-                        <select>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
+                        <select class="select" onchange="filter()">
+                            <option>Subscription: All</option>
+                            <option>Subscription: Yes</option>
+                            <option>Subscription: No</option>
                         </select>
                         <div>
-                            <p>Сбросить</p>
-                            <div class="reset_block"></div>
+                            <p data-id="1" class="reset_block_text">Сбросить</p>
+                            <div data-id="1" class="reset_block"></div>
                         </div>
                     </div>
                 </div>
@@ -417,24 +419,21 @@
                         </svg>
                     </div>
                     <div class="second_block1_div2_block5" style="background: linear-gradient(90deg,#b8e58c,#7ce3b4);">
-                        <select>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
+                        <select class="select" onchange="filter()">
+                            <option>Country: All</option>
+                            <option>Country: Germany</option>
+                            <option>Country: England</option>
+                            <option>Country: Russia</option>
                         </select>
-                        <select>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
+                        <select class="select" onchange="filter()" disabled>
+                            
                         </select>
-                        <select>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
+                        <select class="select" onchange="filter()" disabled>
+                            
                         </select>
                         <div>
-                            <p>Сбросить</p>
-                            <div class="reset_block"></div>
+                            <p data-id="2" class="reset_block_text">Сбросить</p>
+                            <div data-id="2" class="reset_block"></div>
                         </div>
                     </div>
                 </div>
@@ -453,24 +452,18 @@
                         </svg>
                     </div>
                     <div class="second_block1_div2_block5" style="background: linear-gradient(90deg,#983ff4,#7fe2fe);">
-                        <select>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
+                        <select class="select" onchange="filter()">
+                            <option>Positivenes: All</option>
+                            <option>Positivenes: Yes</option>
+                            <option>Positivenes: No</option>
                         </select>
-                        <select>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                        </select>
-                        <select>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                        </select>
+                        
+                        <input class="input" type="date" onchange="filter()" />
+                        
+                        <input class="input" type="date" onchange="filter()" />
                         <div>
-                            <p>Сбросить</p>
-                            <div class="reset_block"></div>
+                            <p data-id="3" class="reset_block_text">Сбросить</p>
+                            <div data-id="3" class="reset_block"></div>
                         </div>
                     </div>
                 </div>
@@ -490,16 +483,16 @@
                         <div class="second_block2_div_container_block2_blocks"></div>
                         <div class="second_block2_div_container_block2_blocks">
                             <div class="second_block2_div_container_block2_blocks_div">
-                                <div class="second_block2_div_container_block2_blocks_div_1"><p class="second_block2_div_container_block2_blocks_div_1_text1">Role</p><p class="second_block2_div_container_block2_blocks_div_1_text2">86%</p></div>
-                                <div class="second_block2_div_container_block2_blocks_div_1"><div class="second_block2_div_container_block2_blocks_div_1_block"><div style="background: linear-gradient(90deg,#b8e58c,#7ce3b4);width: 86%" class="second_block2_div_container_block2_blocks_div_1_block_gradient"></div></div></div>
+                                <div class="second_block2_div_container_block2_blocks_div_1"><p class="second_block2_div_container_block2_blocks_div_1_text1">Role</p><p class="second_block2_div_container_block2_blocks_div_1_text2">100%</p></div>
+                                <div class="second_block2_div_container_block2_blocks_div_1"><div class="second_block2_div_container_block2_blocks_div_1_block"><div style="background: linear-gradient(90deg,#b8e58c,#7ce3b4);width: 100%" class="second_block2_div_container_block2_blocks_div_1_block_gradient"></div></div></div>
                             </div>
                             <div class="second_block2_div_container_block2_blocks_div">
-                                <div class="second_block2_div_container_block2_blocks_div_1"><p class="second_block2_div_container_block2_blocks_div_1_text1">Language</p><p class="second_block2_div_container_block2_blocks_div_1_text2">55%</p></div>
-                                <div class="second_block2_div_container_block2_blocks_div_1"><div class="second_block2_div_container_block2_blocks_div_1_block"><div style="background: linear-gradient(90deg,#dba187,#b03cc4);width: 55%"class="second_block2_div_container_block2_blocks_div_1_block_gradient"></div></div></div>
+                                <div class="second_block2_div_container_block2_blocks_div_1"><p class="second_block2_div_container_block2_blocks_div_1_text1">Language</p><p class="second_block2_div_container_block2_blocks_div_1_text2">100%</p></div>
+                                <div class="second_block2_div_container_block2_blocks_div_1"><div class="second_block2_div_container_block2_blocks_div_1_block"><div style="background: linear-gradient(90deg,#dba187,#b03cc4);width: 100%"class="second_block2_div_container_block2_blocks_div_1_block_gradient"></div></div></div>
                             </div>
                             <div class="second_block2_div_container_block2_blocks_div">
-                                <div class="second_block2_div_container_block2_blocks_div_1"><p class="second_block2_div_container_block2_blocks_div_1_text1">Subcribe</p><p class="second_block2_div_container_block2_blocks_div_1_text2">65%</p></div>
-                                <div class="second_block2_div_container_block2_blocks_div_1"><div class="second_block2_div_container_block2_blocks_div_1_block"><div style="background: linear-gradient(90deg,#983ff4,#7fe2fe);width: 65%" class="second_block2_div_container_block2_blocks_div_1_block_gradient"></div></div></div>
+                                <div class="second_block2_div_container_block2_blocks_div_1"><p class="second_block2_div_container_block2_blocks_div_1_text1">Subcribe</p><p class="second_block2_div_container_block2_blocks_div_1_text2">100%</p></div>
+                                <div class="second_block2_div_container_block2_blocks_div_1"><div class="second_block2_div_container_block2_blocks_div_1_block"><div style="background: linear-gradient(90deg,#983ff4,#7fe2fe);width: 100%" class="second_block2_div_container_block2_blocks_div_1_block_gradient"></div></div></div>
                             </div>
                         </div>
                     </div>
@@ -517,16 +510,16 @@
                         <div class="second_block2_div_container_block2_blocks"></div>
                         <div class="second_block2_div_container_block2_blocks">
                             <div class="second_block2_div_container_block2_blocks_div">
-                                <div class="second_block2_div_container_block2_blocks_div_1"><p class="second_block2_div_container_block2_blocks_div_1_text1">Role</p><p class="second_block2_div_container_block2_blocks_div_1_text2">86%</p></div>
-                                <div class="second_block2_div_container_block2_blocks_div_1"><div class="second_block2_div_container_block2_blocks_div_1_block"><div style="background: linear-gradient(90deg,#b8e58c,#7ce3b4);width: 86%" class="second_block2_div_container_block2_blocks_div_1_block_gradient"></div></div></div>
+                                <div class="second_block2_div_container_block2_blocks_div_1"><p class="second_block2_div_container_block2_blocks_div_1_text1">Country</p><p class="second_block2_div_container_block2_blocks_div_1_text2">100%</p></div>
+                                <div class="second_block2_div_container_block2_blocks_div_1"><div class="second_block2_div_container_block2_blocks_div_1_block"><div style="background: linear-gradient(90deg,#b8e58c,#7ce3b4);width: 100%" class="second_block2_div_container_block2_blocks_div_1_block_gradient"></div></div></div>
                             </div>
                             <div class="second_block2_div_container_block2_blocks_div">
-                                <div class="second_block2_div_container_block2_blocks_div_1"><p class="second_block2_div_container_block2_blocks_div_1_text1">Language</p><p class="second_block2_div_container_block2_blocks_div_1_text2">55%</p></div>
-                                <div class="second_block2_div_container_block2_blocks_div_1"><div class="second_block2_div_container_block2_blocks_div_1_block"><div style="background: linear-gradient(90deg,#dba187,#b03cc4);width: 55%"class="second_block2_div_container_block2_blocks_div_1_block_gradient"></div></div></div>
+                                <div class="second_block2_div_container_block2_blocks_div_1"><p class="second_block2_div_container_block2_blocks_div_1_text1">Region</p><p class="second_block2_div_container_block2_blocks_div_1_text2">100%</p></div>
+                                <div class="second_block2_div_container_block2_blocks_div_1"><div class="second_block2_div_container_block2_blocks_div_1_block"><div style="background: linear-gradient(90deg,#dba187,#b03cc4);width: 100%"class="second_block2_div_container_block2_blocks_div_1_block_gradient"></div></div></div>
                             </div>
                             <div class="second_block2_div_container_block2_blocks_div">
-                                <div class="second_block2_div_container_block2_blocks_div_1"><p class="second_block2_div_container_block2_blocks_div_1_text1">Subcribe</p><p class="second_block2_div_container_block2_blocks_div_1_text2">65%</p></div>
-                                <div class="second_block2_div_container_block2_blocks_div_1"><div class="second_block2_div_container_block2_blocks_div_1_block"><div style="background: linear-gradient(90deg,#983ff4,#7fe2fe);width: 65%" class="second_block2_div_container_block2_blocks_div_1_block_gradient"></div></div></div>
+                                <div class="second_block2_div_container_block2_blocks_div_1"><p class="second_block2_div_container_block2_blocks_div_1_text1">City</p><p class="second_block2_div_container_block2_blocks_div_1_text2">100%</p></div>
+                                <div class="second_block2_div_container_block2_blocks_div_1"><div class="second_block2_div_container_block2_blocks_div_1_block"><div style="background: linear-gradient(90deg,#983ff4,#7fe2fe);width: 100%" class="second_block2_div_container_block2_blocks_div_1_block_gradient"></div></div></div>
                             </div>
                         </div>
                     </div>
@@ -547,11 +540,11 @@
                                 <div class="second_block2_div_container_block2_containers2_block1">Positivenes</div>
                                 <div class="second_block2_div_container_block2_containers2_block2">
                                     <div class="second_block2_div_container_block2_containers2_count">
-                                        <div style="background: linear-gradient(90deg,#983ff4,#7fe2fe);width: 75%;" class="second_block2_div_container_block2_containers2_count_gradient"></div>
+                                        <div style="background: linear-gradient(90deg,#983ff4,#7fe2fe);width: 100%;" class="second_block2_div_container_block2_containers2_count_gradient"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="second_block2_div_container_block2_containers3">75 %</div>
+                            <div class="second_block2_div_container_block2_containers3">100%</div>
                         </div>
                         <div class="second_block2_div_container_block2_containers">
                             <div class="second_block2_div_container_block2_containers1"></div>
@@ -559,11 +552,11 @@
                                 <div class="second_block2_div_container_block2_containers2_block1">Breaking</div>
                                 <div class="second_block2_div_container_block2_containers2_block2">
                                     <div class="second_block2_div_container_block2_containers2_count">
-                                        <div style="background: linear-gradient(90deg,#b8e58c,#7ce3b4);width: 95%;" class="second_block2_div_container_block2_containers2_count_gradient"></div>
+                                        <div style="background: linear-gradient(90deg,#b8e58c,#7ce3b4);width: 100%;" class="second_block2_div_container_block2_containers2_count_gradient"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="second_block2_div_container_block2_containers3">95 %</div>
+                            <div class="second_block2_div_container_block2_containers3">100%</div>
                         </div>
                         <div class="second_block2_div_container_block2_containers">
                             <div class="second_block2_div_container_block2_containers1"></div>
@@ -571,11 +564,11 @@
                                 <div class="second_block2_div_container_block2_containers2_block1">Verify</div>
                                 <div class="second_block2_div_container_block2_containers2_block2">
                                     <div class="second_block2_div_container_block2_containers2_count">
-                                        <div style="background: linear-gradient(90deg,#dba187,#b03cc4);width: 65%;" class="second_block2_div_container_block2_containers2_count_gradient"></div>
+                                        <div style="background: linear-gradient(90deg,#dba187,#b03cc4);width: 100%;" class="second_block2_div_container_block2_containers2_count_gradient"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="second_block2_div_container_block2_containers3">65 %</div>
+                            <div class="second_block2_div_container_block2_containers3">100%</div>
                         </div>
                     </div>
                 </div>
@@ -585,9 +578,185 @@
     
     <div class="container_info">
         <div class="container_info_block">
-            <p>Получателей в базе: <span>0</span> из <span>20</span></p>
+            <p>Получателей в базе: <span id="filter_user_quantity">0</span> из <span id="all_user_quantity"></span></p>
             <button class="container_info_block_button">Готовый список</button>
         </div>
     </div>
+  
+<script src="users.js"></script>    
+<script>  
+    var user_quantity = 0;
+    for(var i in users){
+        user_quantity++;
+    }
+    document.getElementById('filter_user_quantity').innerHTML = user_quantity;
+    document.getElementById('all_user_quantity').innerHTML = user_quantity;
+    
+    
+ 
+    
+    
+    
+function filter(){
+    var users_massiv = [];
+    var Role = document.getElementsByClassName('select')[0].value.substr(12,document.getElementsByClassName('select')[0].value.length);
+    var Language = document.getElementsByClassName('select')[1].value.substr(10,document.getElementsByClassName('select')[1].value.length);
+    var Subscription = document.getElementsByClassName('select')[2].value.substr(14,document.getElementsByClassName('select')[2].value.length);
+    
+    var Country = document.getElementsByClassName('select')[3].value.substr(9,document.getElementsByClassName('select')[2].value.length);
+    
+    var Positivnes = document.getElementsByClassName('select')[6].value.substr(13,document.getElementsByClassName('select')[6].value.length);
+    var FromDate = document.getElementsByClassName('input')[0].value != '' ? document.getElementsByClassName('input')[0].value : 'All';
+    var FromDateBool = false;
+    var ToDate = document.getElementsByClassName('input')[1].value != '' ? document.getElementsByClassName('input')[1].value : 'All';
+    var ToDateBool = false;
+    
+
+    var role_quant = 0;
+    var lang_quant = 0;
+    var subscrip_quant = 0;
+    var country_quant = 0;
+    
+    var positiv_quant = 0;
+    var FromDate_quant = 0;
+    var ToDate_quant = 0; 
+    for( var i in users ){
+        FromDateBool = false;
+        ToDateBool = false;
+        
+        if( FromDate.substring(0 , 4 ) < users[i].from_date.substring(0 , 4 ) ){
+            FromDateBool = true;
+            FromDate_quant++;
+        }else if( FromDate.substring(0 , 4 ) == users[i].from_date.substring(0 , 4 ) ){
+            if( FromDate.substring(5 , 7 ) < users[i].from_date.substring(5 , 7 ) ){
+                  FromDateBool = true;
+                  FromDate_quant++;
+            }else if( FromDate.substring(5 , 7 ) == users[i].from_date.substring(5 , 7 ) ){
+                  if( FromDate.substring(8 , 10 ) < users[i].from_date.substring(8 , 10 ) ){
+                         FromDateBool = true;
+                         FromDate_quant++;
+                  } else if( FromDate.substring(8 , 10 ) == users[i].from_date.substring(8 , 10 ) ){
+                         FromDateBool = true;   
+                         FromDate_quant++;
+                  }
+            }    
+        }
+        
+        
+        if( ToDate.substring(0 , 4 ) > users[i].from_date.substring(0 , 4 ) ){
+            ToDateBool = true;
+            ToDate_quant++;
+        }else if( ToDate.substring(0 , 4 ) == users[i].from_date.substring(0 , 4 ) ){
+            if( ToDate.substring(5 , 7 ) > users[i].from_date.substring(5 , 7 ) ){
+                  ToDateBool = true;
+                  ToDate_quant++;
+            }else if( ToDate.substring(5 , 7 ) == users[i].from_date.substring(5 , 7 ) ){
+                  if( ToDate.substring(8 , 10 ) > users[i].from_date.substring(8 , 10 ) ){
+                         ToDateBool = true;
+                         ToDate_quant++;
+                  } else if( FromDate.substring(8 , 10 ) == users[i].from_date.substring(8 , 10 ) ){
+                         ToDateBool = true;  
+                         ToDate_quant++;
+                  }
+            }    
+        }
+        
+        
+        
+        if(users[i].role == Role || Role == 'All'){
+            role_quant++;
+        } 
+        
+        if(users[i].language == Language || Language == 'All'){
+            lang_quant++;
+        }
+        
+        if(users[i].subscription == Subscription || Subscription == 'All'){
+            subscrip_quant++;
+        }
+        
+        if(users[i].country == Country || Country == 'All'){
+            country_quant++;
+            
+            if(Country == 'All'){
+                document.getElementsByClassName('select')[4].setAttribute('disabled','');
+            }else{
+                document.getElementsByClassName('select')[4].removeAttribute('disabled');
+                //Добавить значения в регион и затем Проверка региона
+            }
+        }
+        
+        
+        
+        if(users[i].positivnes == Positivnes || Positivnes == 'All'){
+            positiv_quant++;
+        }
+        
+        
+        
+        
+        
+        
+        
+        if( (Role == 'All' || users[i].role == Role ) && (Language == 'All' || users[i].language == Language) && (Subscription == 'All' || users[i].subscription == Subscription) && (Positivnes == 'All' || users[i].positivnes == Positivnes) && (Country == 'All' || users[i].country == Country) && (FromDate == 'All' || FromDateBool == true ) && (ToDate == 'All' || ToDateBool == true ) ){
+            users_massiv.push( users[i] );
+        }
+    }
+    
+    document.getElementsByClassName('second_block2_div_container_block2_blocks_div_1_block_gradient')[0].style.width = parseInt(((role_quant / user_quantity) * 100))+'%'; 
+    document.getElementsByClassName('second_block2_div_container_block2_blocks_div_1_text2')[0].innerHTML = parseInt(((role_quant / user_quantity) * 100))+'%';
+    
+    document.getElementsByClassName('second_block2_div_container_block2_blocks_div_1_block_gradient')[1].style.width = parseInt(((lang_quant / user_quantity) * 100))+'%'; 
+    document.getElementsByClassName('second_block2_div_container_block2_blocks_div_1_text2')[1].innerHTML = parseInt(((lang_quant / user_quantity) * 100))+'%';
+    
+    document.getElementsByClassName('second_block2_div_container_block2_blocks_div_1_block_gradient')[2].style.width = parseInt(((subscrip_quant / user_quantity) * 100))+'%'; 
+    document.getElementsByClassName('second_block2_div_container_block2_blocks_div_1_text2')[2].innerHTML = parseInt(((subscrip_quant / user_quantity) * 100))+'%';
+    
+    document.getElementsByClassName('second_block2_div_container_block2_blocks_div_1_block_gradient')[3].style.width = parseInt(((country_quant / user_quantity) * 100))+'%'; 
+    document.getElementsByClassName('second_block2_div_container_block2_blocks_div_1_text2')[3].innerHTML = parseInt(((country_quant / user_quantity) * 100))+'%';
+    
+    
+    
+    
+    document.getElementsByClassName('second_block2_div_container_block2_containers2_count_gradient')[0].style.width = parseInt(((positiv_quant / user_quantity) * 100))+'%'; 
+    document.getElementsByClassName('second_block2_div_container_block2_containers3')[0].innerHTML = parseInt(((positiv_quant / user_quantity) * 100))+'%';
+    
+    document.getElementsByClassName('second_block2_div_container_block2_containers2_count_gradient')[1].style.width = parseInt(((FromDate_quant / user_quantity) * 100))+'%'; 
+    document.getElementsByClassName('second_block2_div_container_block2_containers3')[1].innerHTML = parseInt(((FromDate_quant / user_quantity) * 100))+'%';
+    
+    document.getElementsByClassName('second_block2_div_container_block2_containers2_count_gradient')[2].style.width = parseInt(((ToDate_quant / user_quantity) * 100))+'%'; 
+    document.getElementsByClassName('second_block2_div_container_block2_containers3')[2].innerHTML = parseInt(((ToDate_quant / user_quantity) * 100))+'%';
+
+    
+    
+    
+    console.log(users_massiv);
+    document.getElementById('filter_user_quantity').innerHTML = users_massiv.length;
+}
+    
+ 
+    
+    
+    
+    
+document.onclick = (e)=>{
+    if( e.target.className == 'reset_block' || e.target.className == 'reset_block_text'){
+        if( e.target.getAttribute('data-id') == '1' ){
+            document.getElementsByClassName('select')[0].options[0].selected = true;
+            document.getElementsByClassName('select')[1].options[0].selected = true;
+            document.getElementsByClassName('select')[2].options[0].selected = true;
+        }else if( e.target.getAttribute('data-id') == '2' ){
+            document.getElementsByClassName('select')[3].options[0].selected = true;
+            //document.getElementsByClassName('select')[4].options[0].selected = true;
+            //document.getElementsByClassName('select')[5].options[0].selected = true;     
+        }else{
+            document.getElementsByClassName('select')[6].options[0].selected = true;
+            document.getElementsByClassName('input')[0].value = '';
+            document.getElementsByClassName('input')[1].value = '';
+        }
+        filter();
+    }
+}
+</script>
 </body>
 </html>
