@@ -5,8 +5,8 @@ var users={
       "language" : "RU",
       "subscription" : "Yes",
       "country" : "Germany",
-      "region" : "https://i.ru-music.cc/img/song/thumb/58264-artik-asti-я-так-люблю-тебя.jpg",
-      "city" : "Я так люблю тебя",
+      "region" : "South",
+      "city" : "Berlin",
       "positivnes" : "Yes",
       "from_date" : "2017-04-14"
     },
@@ -16,7 +16,7 @@ var users={
       "language" : "RU",
       "subscription" : "Yes",
       "country" : "Russia",
-      "region" : "https://i.ru-music.cc/img/song/thumb/58264-artik-asti-я-так-люблю-тебя.jpg",
+      "region" : "South of Russia",
       "city" : "Я так люблю тебя",
       "positivnes" : "No",
       "from_date" : "2015-11-18"
@@ -27,8 +27,8 @@ var users={
       "language" : "DE",
       "subscription" : "No",
       "country" : "Germany",
-      "region" : "https://i.ru-music.cc/img/song/thumb/58264-artik-asti-я-так-люблю-тебя.jpg",
-      "city" : "Я так люблю тебя",
+      "region" : "East",
+      "city" : "Gamburg",
       "positivnes" : "No",
       "from_date" : "2010-05-11"
     },
@@ -38,8 +38,8 @@ var users={
       "language" : "EN",
       "subscription" : "No",
       "country" : "Germany",
-      "region" : "https://i.ru-music.cc/img/song/thumb/58264-artik-asti-я-так-люблю-тебя.jpg",
-      "city" : "Я так люблю тебя",
+      "region" : "East",
+      "city" : "Munhen",
       "positivnes" : "No",
       "from_date" : "2000-03-22"
     },
@@ -49,7 +49,7 @@ var users={
       "language" : "EN",
       "subscription" : "Yes",
       "country" : "Russia",
-      "region" : "https://i.ru-music.cc/img/song/thumb/58264-artik-asti-я-так-люблю-тебя.jpg",
+      "region" : "East  of Russia",
       "city" : "Я так люблю тебя",
       "positivnes" : "Yes",
       "from_date" : "2004-12-29"
@@ -60,7 +60,7 @@ var users={
       "language" : "EN",
       "subscription" : "No",
       "country" : "England",
-      "region" : "https://i.ru-music.cc/img/song/thumb/58264-artik-asti-я-так-люблю-тебя.jpg",
+      "region" : "East",
       "city" : "Я так люблю тебя",
       "positivnes" : "Yes",
       "from_date" : "2012-01-01"
@@ -71,7 +71,7 @@ var users={
       "language" : "DE",
       "subscription" : "No",
       "country" : "Russia",
-      "region" : "https://i.ru-music.cc/img/song/thumb/58264-artik-asti-я-так-люблю-тебя.jpg",
+      "region" : "East  of Russia",
       "city" : "Я так люблю тебя",
       "positivnes" : "Yes",
       "from_date" : "2017-12-12"
@@ -82,8 +82,8 @@ var users={
       "language" : "RU",
       "subscription" : "No",
       "country" : "Germany",
-      "region" : "https://i.ru-music.cc/img/song/thumb/58264-artik-asti-я-так-люблю-тебя.jpg",
-      "city" : "Я так люблю тебя",
+      "region" : "West",
+      "city" : "Assen",
       "positivnes" : "No",
       "from_date" : "2015-08-03"
     },
@@ -93,8 +93,8 @@ var users={
       "language" : "DE",
       "subscription" : "No",
       "country" : "Germany",
-      "region" : "https://i.ru-music.cc/img/song/thumb/58264-artik-asti-я-так-люблю-тебя.jpg",
-      "city" : "Я так люблю тебя",
+      "region" : "West",
+      "city" : "Drezden",
       "positivnes" : "No",
       "from_date" : "2019-02-14"
     },
@@ -104,8 +104,8 @@ var users={
       "language" : "EN",
       "subscription" : "No",
       "country" : "England",
-      "region" : "https://i.ru-music.cc/img/song/thumb/58264-artik-asti-я-так-люблю-тебя.jpg",
-      "city" : "Я так люблю тебя",
+      "region" : "South",
+      "city" : "Bristol",
       "positivnes" : "Yes",
       "from_date" : "2009-11-15"
     },
@@ -115,8 +115,8 @@ var users={
       "language" : "DE",
       "subscription" : "Yes",
       "country" : "England",
-      "region" : "https://i.ru-music.cc/img/song/thumb/58264-artik-asti-я-так-люблю-тебя.jpg",
-      "city" : "Я так люблю тебя",
+      "region" : "West",
+      "city" : "Lester",
       "positivnes" : "No",
       "from_date" : "2013-03-08"
     },
@@ -126,8 +126,8 @@ var users={
       "language" : "EN",
       "subscription" : "No",
       "country" : "England",
-      "region" : "https://i.ru-music.cc/img/song/thumb/58264-artik-asti-я-так-люблю-тебя.jpg",
-      "city" : "Я так люблю тебя",
+      "region" : "South",
+      "city" : "London",
       "positivnes" : "Yes",
       "from_date" : "2015-07-25"
     }
