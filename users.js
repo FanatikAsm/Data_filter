@@ -1,6 +1,8 @@
 var users={
     "0":{
       "id" : 0,
+      "photo" : "https://catherineasquithgallery.com/uploads/posts/2021-02/1614523089_178-p-litso-na-belom-fone-225.jpg",
+      "name" : "Katelin",
       "role" : "Admin",
       "language" : "RU",
       "subscription" : "Yes",
@@ -12,17 +14,21 @@ var users={
     },
     "1":{
       "id" : 1,
+      "photo" : "https://catherineasquithgallery.com/uploads/posts/2021-03/1614599186_67-p-foto-cheloveka-na-belom-fone-74.jpg",
+      "name" : "Drake",
       "role" : "User",
       "language" : "RU",
       "subscription" : "Yes",
       "country" : "Russia",
       "region" : "South of Russia",
-      "city" : "Я так люблю тебя",
+      "city" : "Tomsk",
       "positivnes" : "No",
       "from_date" : "2015-11-18"
     },
     "2":{
       "id" : 2,
+      "photo" : "https://catherineasquithgallery.com/uploads/posts/2021-02/1614511016_132-p-na-belom-fone-chelovek-151.jpg",
+      "name" : "Jake",
       "role" : "Developer",
       "language" : "DE",
       "subscription" : "No",
@@ -34,6 +40,8 @@ var users={
     },
     "3":{
       "id" : 3,
+      "photo" : "https://avatars.mds.yandex.net/i?id=3ac37f9922de4e415ef932dffe442d67eb881287-6228727-images-thumbs&n=13",
+      "name" : "Andy",
       "role" : "Developer",
       "language" : "EN",
       "subscription" : "No",
@@ -45,39 +53,47 @@ var users={
     },
     "4":{
       "id" : 4,
+      "photo" : "http://dental-south.com/wp-content/uploads/2016/11/iStock_87097241_MEDIUM-woman-with-dry-mouth.jpg",
+      "name" : "Jenifer",
       "role" : "Developer",
       "language" : "EN",
       "subscription" : "Yes",
       "country" : "Russia",
       "region" : "East  of Russia",
-      "city" : "Я так люблю тебя",
+      "city" : "st. Petersburg",
       "positivnes" : "Yes",
       "from_date" : "2004-12-29"
     },
     "5":{
       "id" : 5,
+      "photo" : "https://catherineasquithgallery.com/uploads/posts/2021-02/1614510912_35-p-na-belom-fone-chelovek-44.jpg",
+      "name" : "Nikol",
       "role" : "Developer",
       "language" : "EN",
       "subscription" : "No",
       "country" : "England",
       "region" : "East",
-      "city" : "Я так люблю тебя",
+      "city" : "London",
       "positivnes" : "Yes",
       "from_date" : "2012-01-01"
     },
     "6":{
       "id" : 6,
+      "photo" : "https://thumbs.dreamstime.com/b/smiling-businesswoman-standing-over-white-isolated-background-waving-hand-business-education-office-greeting-concept-78573912.jpg",
+      "name" : "Maria",
       "role" : "Admin",
       "language" : "DE",
       "subscription" : "No",
       "country" : "Russia",
       "region" : "East  of Russia",
-      "city" : "Я так люблю тебя",
+      "city" : "Moscow",
       "positivnes" : "Yes",
       "from_date" : "2017-12-12"
     },
     "7":{
       "id" : 7,
+      "photo" : "https://catherineasquithgallery.com/uploads/posts/2021-03/1614550153_35-p-memi-na-belom-fone-36.png",
+      "name" : "Tony",
       "role" : "User",
       "language" : "RU",
       "subscription" : "No",
@@ -89,6 +105,8 @@ var users={
     },
     "8":{
       "id" : 8,
+      "photo" : "https://www.pngkit.com/png/detail/914-9142689_east-filling-machines-business-girls-with-curly-hairs.png",
+      "name" : "Kesha",
       "role" : "User",
       "language" : "DE",
       "subscription" : "No",
@@ -100,6 +118,8 @@ var users={
     },
     "9":{
       "id" : 9,
+      "photo" : "https://catherineasquithgallery.com/uploads/posts/2021-03/1614599259_82-p-foto-cheloveka-na-belom-fone-89.jpg",
+      "name": "Martin",
       "role" : "User",
       "language" : "EN",
       "subscription" : "No",
@@ -111,6 +131,8 @@ var users={
     },
     "10":{
       "id" : 10,
+      "photo" : "https://catherineasquithgallery.com/uploads/posts/2021-02/1614528003_13-p-muzhchina-na-belom-fone-16.jpg",
+      "name" : "Tom",
       "role" : "User",
       "language" : "DE",
       "subscription" : "Yes",
@@ -122,6 +144,8 @@ var users={
     },
     "11":{
       "id" : 11,
+      "photo" : "https://avrorra.com/wp-content/uploads/2019/08/post_5d516ea7cbd53.jpg",
+      "name" : "Anna",
       "role" : "User",
       "language" : "EN",
       "subscription" : "No",
