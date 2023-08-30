@@ -4,7 +4,7 @@
 > **IMPORTANT**
 > This program is not yet completed.
 <br />
-Elements in beautiful READMEs include, but are not limited to: images, screenshots, GIFs, text formatting, etc.
+The program is being finished but some of the functionality is already available.
 
 
 ### Video. How is that work ?
@@ -54,34 +54,47 @@ how you could set this up for your team:
 
 ## 🔎 1. Filter
 
-For full functionality ZenML should be deployed on the cloud to
-enable collaborative features as the central MLOps interface for teams.
+There are three blocks with filters on the page. Every block has three select tags with onchange attribute.
 
-![ZenML Architecture Diagram.](docs/book/.gitbook/assets/Scenario3.png)
+```html
+<select class="select" onchange="filter()">
+    <option>...</option>
+    <option>...</option>
+    <option>...</option>
+</select>
+```
 
-Currently, there are two main options to deploy ZenML:
+```javascript
+function filter(){
+   //code which check/filter from all select block....
+}
 
-- **ZenML Cloud**: With [ZenML Cloud](https://docs.zenml.io/deploying-zenml/zenml-cloud), 
-you can utilize a control plane to create ZenML servers, also known as tenants. 
-These tenants are managed and maintained by ZenML's dedicated team, alleviating 
-the burden of server management from your end. 
+filter();
+```
 
-- **Self-hosted deployment**: Alternatively, you have the flexibility to [deploy 
-ZenML on your own self-hosted environment](https://docs.zenml.io/deploying-zenml/zenml-self-hosted). 
-This can be achieved through various methods, including using our CLI, Docker, 
-Helm, or HuggingFace Spaces.
+Also the function performs:
+
+- **Count**: How many percent of a hundred is the selected block , 
+then displays on the graphic. 
+
+- **Active/not active select block with country and region**: If you have selected a country, then the block with the region becomes active. If a region is selected, the city block becomes active
 
 ## 📋 2. Open and check data filter
 
-ZenML boasts a ton of [integrations](https://zenml.io/integrations) into 
-popular MLOps tools. The [ZenML Stack](https://docs.zenml.io/user-guide/starter-guide/understand-stacks) 
-concept ensures that these tools work nicely together, therefore bringing
-structure and standardization into the MLOps workflow.
+Shows filtered users with information about each.
 
-Deploying and configuring this is super easy with ZenML. For **AWS**, this might 
-look a bit like this
+```html
+<button class="container_info_block_button">Ready list</button>
+```
 
-```bash
+```javascript
+document.onclick = e=>{
+  if(){
+    
+  }else if( e.target.className == 'container_info_block_button' ){
+     // some code
+  }
+}
 ```
 
 When you run a pipeline with this stack set, it will be running on your deployed
@@ -91,31 +104,43 @@ You can also [deploy your own tooling manually](https://docs.zenml.io/stacks-and
 
 ## 📑 3. New information inside filtered data
 
-Here's an example of a hello world ZenML pipeline in code:
+Here's an example of updating user information:
 
-```python
+```html
+<div class="users_info_block_div3_container">
+    <div data-id="0" class="users_info_block_div3_button"></div>
+    <div data-id="1" class="users_info_block_div3_button"></div>
+    <div data-id="2" class="users_info_block_div3_button"></div>
+</div>
 ```
 
-```bash
+```javascript
+document.onclick = e=>{
+  if(){
+    
+  }else if( e.target.className == 'users_info_block_div3_button' ){
+     // some code
+  }
+}
 ```
+
+
 
 ## 📛 4. Reset filter block
 
-Open up the ZenML dashboard using this command.
+Click on the button inside block and reset all ‹select› tags in this container.
 
-```bash
-```
 
-![ZenML Dashboard](docs/book/.gitbook/assets/landingpage.png)
+
 <div align="center">
     <img src="docs/book/.gitbook/assets/stack.gif">
 </div>
 
 
 # 🗺 Roadmap
-index.html is a main file.
+index.html is a main file which loads:
 - javascript.js
-- cascadingStyle.css
+- style.css
 <div align="center">
     <img src="docs/book/.gitbook/assets/stack.gif">
 </div>
