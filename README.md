@@ -24,9 +24,9 @@ Elements in beautiful READMEs include, but are not limited to: images, screensho
 🚀 There are 12 people in the database who can be filtered by parameters. You can filter by : 1)user role 2)language 3)subscription 4)country 5) regions 6)city and etc...
 <br /> Regions parametr can be active only if you choise contry. Because regions contains value information about the selected country.
 <br /> City parametr can be active only if you choise Regions. Because cities contains value information about the selected regions.
-- 💼 Show filtered information by parameters.
-- 👨‍💻 What percentage of users remain on the selected parameter.
-- 🛫 Reset all parametrs in the selected column.
+- 📊 Show filtered information by parameters.
+- 💯 What percentage of users remain on the selected parameter.
+- ❌ Reset all parametrs in the selected column.
 
 ![The long journey from experimentation to production.](https://disk.yandex.kz/i/lPmkfJMs5erbvw)
 
@@ -38,7 +38,7 @@ infrastructures.
     <img src="docs/book/.gitbook/assets/stack.gif">
 </div>
 
-# 🤸 Quickstart
+# 📀 Quickstart
 Open in your browser file which called "index.html". 
 It will load the remaining files.
 <div align="center">
@@ -47,12 +47,12 @@ It will load the remaining files.
 
 
 
-# 🖼️ Documentation
+# 📜 Documentation
 ZenML allows you to create and manage your own MLOps platform using 
 best-in-class open-source and cloud-based technologies. Here is an example of 
 how you could set this up for your team:
 
-## 🔋 1. Deploy ZenML
+## 🔎 1. Filter
 
 For full functionality ZenML should be deployed on the cloud to
 enable collaborative features as the central MLOps interface for teams.
@@ -71,7 +71,7 @@ ZenML on your own self-hosted environment](https://docs.zenml.io/deploying-zenml
 This can be achieved through various methods, including using our CLI, Docker, 
 Helm, or HuggingFace Spaces.
 
-## 👨‍🍳 2. Deploy Stack Components
+## 📋 2. Open and check data filter
 
 ZenML boasts a ton of [integrations](https://zenml.io/integrations) into 
 popular MLOps tools. The [ZenML Stack](https://docs.zenml.io/user-guide/starter-guide/understand-stacks) 
@@ -89,7 +89,7 @@ Kubernetes cluster.
 
 You can also [deploy your own tooling manually](https://docs.zenml.io/stacks-and-components/stack-deployment).
 
-## 🏇 3. Create a Pipeline
+## 📑 3. New information inside filtered data
 
 Here's an example of a hello world ZenML pipeline in code:
 
@@ -99,7 +99,7 @@ Here's an example of a hello world ZenML pipeline in code:
 ```bash
 ```
 
-## 👭 4. Start the Dashboard
+## 📛 4. Reset filter block
 
 Open up the ZenML dashboard using this command.
 
