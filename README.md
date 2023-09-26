@@ -10,6 +10,27 @@ The program is being finished but some of the functionality is already available
 ### Video. How is that work ?
 [![CLICK ME TO PLAY](https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
+<table align="right" >
+  <tr>
+    <td>
+    <center>
+      <a href="" target="blank"><img src="y_min.svg" alt="youtube" align="left" /></a>
+      <dl>
+       <dt><b>Site weight</b></dt>
+       <dd><a href="" target="blank">55kb</a></dd>
+       <dt><b>Site requests</b></dt>
+       <dd><a href="" target="blank">12</a></dd>
+       <dt><b>CSS</b></dt>
+       <dd><a href="" target="blank">12kb</a></dd>
+       <dt><b>JS</b></dt>
+       <dd><a href="" target="blank">12kb</a></dd>
+      </dl>
+    </center>
+    <p align="right"><a href="" target="blank" align="right" >Data_filter</a></p>
+    </td>
+  </tr>
+</table>
+
 
 # 🤖 Desciption
 ### Languages :
