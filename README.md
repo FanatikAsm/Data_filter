@@ -2,13 +2,13 @@
 
 # Data_filter [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome#readme)
 > **IMPORTANT**
-> This program is not yet completed.
+> This program is not completed yet.
 <br />
 The program is being finished but some of the functionality is already available.
 
 
 ### Video. How is that work ?
-[![CLICK ME TO PLAY](https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![CLICK IT TO PLAY](https://www.nucleustechnologies.com/blog/wp-content/uploads/2020/12/video-is-not-available-1.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
 <table align="right" >
   <tr>
@@ -49,7 +49,7 @@ The program is being finished but some of the functionality is already available
 - 💯 What percentage of users remain on the selected parameter.
 - ❌ Reset all parametrs in the selected column.
 
-![The long journey from experimentation to production.](https://disk.yandex.kz/i/lPmkfJMs5erbvw)
+![Project enable Picture](https://projectenable.syr.edu/data/5df39259e28d8.png)
 
 ZenML provides a user-friendly syntax designed for ML workflows, compatible with
 any cloud or tool. It enables centralized pipeline management, enabling
