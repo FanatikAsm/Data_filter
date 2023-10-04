@@ -17,13 +17,13 @@ The program is being finished but some of the functionality is already available
       <a href="" target="blank"><img src="y_min.svg" alt="youtube" align="left" /></a>
       <dl>
        <dt><b>Site weight</b></dt>
-       <dd><a href="" target="blank">55kb</a></dd>
+       <dd><a href="" target="blank">51,5kb</a></dd>
        <dt><b>Site requests</b></dt>
-       <dd><a href="" target="blank">12</a></dd>
+       <dd><a href="" target="blank">From 1 to 13</a></dd>
        <dt><b>CSS</b></dt>
-       <dd><a href="" target="blank">12kb</a></dd>
+       <dd><a href="" target="blank">11,7kb</a></dd>
        <dt><b>JS</b></dt>
-       <dd><a href="" target="blank">12kb</a></dd>
+       <dd><a href="" target="blank">19kb</a></dd>
       </dl>
     </center>
     <p align="right"><a href="" target="blank" align="right" >Data_filter</a></p>
@@ -177,5 +177,5 @@ a discussion in this repository or write to e-mail
 
 
 # 📘 License
-[MIT © Mark Filippov](https://github.com/FanatikAsm/Data_filter/LICENSE)   
+[MIT © Mark Filippov](https://github.com/FanatikAsm/Data_filter/blob/main/LICENSE.txt)   
 Copyright © «2023» «FanatikAsm»
