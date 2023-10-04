@@ -16,9 +16,9 @@ The program is being finished but some of the functionality is already available
     <center>
       <a href="" target="blank"><img src="y_min.svg" alt="youtube" align="left" /></a>
       <dl>
-       <dt><b>Site weight</b></dt>
+       <dt><b>Project weight</b></dt>
        <dd><a href="" target="blank">51,5kb</a></dd>
-       <dt><b>Site requests</b></dt>
+       <dt><b>Project requests</b></dt>
        <dd><a href="" target="blank">From 1 to 13</a></dd>
        <dt><b>CSS</b></dt>
        <dd><a href="" target="blank">11,7kb</a></dd>
