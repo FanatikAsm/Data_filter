@@ -14,7 +14,6 @@ The program is being finished but some of the functionality is already available
   <tr>
     <td>
     <center>
-      <a href="" target="blank"><img src="y_min.svg" alt="youtube" align="left" /></a>
       <dl>
        <dt><b>Project weight</b></dt>
        <dd><a href="" target="blank">51,5kb</a></dd>
